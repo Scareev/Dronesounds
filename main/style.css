@@ -59,16 +59,17 @@ section > h1{
     border-top-right-radius: 15.2%;
     border-bottom-right-radius: 15.2%;
     border-bottom-left-radius: 25%;
-    
 }
 
+/* MÚSICAS */
+
 .music{
-    
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 5%;
     width: 90%;
-    height: 50%;
+    height: 40%;
     background-color: #521147;
 }
 
@@ -81,6 +82,16 @@ section > h1{
     background-color: #de3885;
     transition: flex-grow 0.2s ease;
 }
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(#de388570, #de388500, #de388500);
+}
+
+
+/* RESTO DO SITE */
 
 button{
     color: #ffffff;
@@ -134,7 +145,7 @@ nav > a{
 
 footer{
     background-color: rgb(44, 19, 44);
-    position: fixed; 
+    position: static;
     bottom: 0;
     left: 0; 
     width: 100%;
